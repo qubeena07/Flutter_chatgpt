@@ -21,7 +21,7 @@ class _ChatScreenState extends State<ChatScreen> {
   final List<ChatMessage> _message = [];
   
   // Replace with Your API-KEY
-  String apiKey = "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";
+  String apiKey = "";
   Future<void> _sendMessage() async {
 
     ChatMessage message = ChatMessage(text: _controller.text, sender: "U");
